@@ -84,8 +84,8 @@ button {
 }
 
 .hero-main-placeholder > .hero-img {
-  width: 500px;
-  height: 200px;
+  height: 300px;
+  min-width: 300px;
 }
 
 .content {
@@ -174,4 +174,13 @@ button.cta-signup-button {
   color: #e5e7eb;
   border: 2px solid #f9faf8;
   padding: 10px 30px;
+}
+
+.footer {
+  background-color: #1f2937;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  color: #f9faf8;
+  padding: 40px;
 }
