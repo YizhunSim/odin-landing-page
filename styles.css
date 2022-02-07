@@ -19,7 +19,7 @@ body {
 
 .header {
   justify-content: space-between;
-  padding: 20px 100px;
+  padding: 20px 200px;
   flex-wrap: wrap;
 }
 
@@ -37,7 +37,7 @@ body {
 
 .banner {
   justify-content: space-between;
-  padding: 50px 100px 100px 100px;
+  padding: 50px 200px 100px 200px;
   flex-wrap: wrap;
   gap: 40px;
 }
@@ -84,8 +84,8 @@ button {
 }
 
 .hero-main-placeholder > .hero-img {
-  height: 300px;
-  min-width: 300px;
+  max-width: 500px;
+  min-width: 250px;
 }
 
 .content {
